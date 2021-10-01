@@ -1,4 +1,4 @@
-.grid-container {
+/* .grid-container {
         
     display: grid;
     grid-template-columns: 50% 50%;
@@ -60,4 +60,50 @@
       margin-top: 20%;
   }
      
-    
+     */
+*{
+    background-color: blueviolet;
+}     
+.app-wrap{
+    text-align: center;
+    margin-top: 350px;
+}
+input[type=text]{
+    background-color: #C0C0C0;
+    font-size: 20px;
+    height: 35px;
+    border-radius: 18px;
+    border-end-start-radius: 0px;
+    border-start-end-radius: 0px;
+    /* border-end-end-radius: 0px; */
+    border-bottom: 3px solid orangered;
+    margin: 50px 600px;
+}
+#btn{
+    margin: 0px 680px;
+    font-size: 19px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 5px;
+}
+#cityname{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 650px;
+}
+#temp{
+    color: #fff;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    box-shadow: 10px black;
+    margin: -300px 0px;
+}
+#hi-low{
+    margin: 350px 0px;
+    color: #fff;
+    font-size: 25px;
+}
